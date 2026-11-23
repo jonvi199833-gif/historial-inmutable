@@ -1,0 +1,23 @@
+body { font-family: Arial, sans-serif; background: #111827; color: #f9fafb; margin: 0; padding: 24px; }
+.panel { background: #1f2937; border: 1px solid #374151; border-radius: 10px; padding: 16px; margin-bottom: 20px; }
+input { padding: 8px 12px; border-radius: 6px; border: 1px solid #4b5563; background: #111827; color: #f9fafb; width: 260px; }
+#estado { margin-top: 12px; padding: 10px 14px; border-radius: 6px; font-weight: bold;
+          background: #064e3b; border: 1px solid #10b981; }
+#estado.roto { background: #7f1d1d; border-color: #ef4444; }
+.fila-cadena { display: flex; align-items: center; overflow-x: auto; padding: 16px 0; }
+.bloque { min-width: 240px; border-radius: 10px; padding: 16px; cursor: pointer;
+          border: 2px solid transparent; transition: transform 0.15s ease; }
+.bloque:hover { transform: translateY(-4px); }
+.bloque-verde { background: #064e3b; border-color: #10b981; }
+.bloque-rojo { background: #7f1d1d; border-color: #ef4444; }
+.estado { font-size: 12px; font-weight: bold; margin-bottom: 8px; }
+.flecha { font-size: 28px; margin: 0 12px; color: #9ca3af; user-select: none; }
+.hash { font-family: monospace; font-size: 12px; word-break: break-all; }
+#detalle { padding: 16px; border-radius: 10px; background: #1f2937; border: 1px solid #374151; }
+.acciones { margin-top: 12px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+input[type="file"] { width: auto; }
+button { padding: 8px 14px; border-radius: 6px; border: none; cursor: pointer; font-weight: bold;
+         background: #2563eb; color: white; }
+button:disabled { background: #374151; color: #9ca3af; cursor: not-allowed; }
+#mensaje-importacion { margin: 10px 0 0; }
+.fila-cadena { scrollbar-color: #4b5563 #1f2937; }

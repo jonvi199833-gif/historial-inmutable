@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Historial Clínico Inmutable</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Historial Clínico Inmutable</h1>
+
+    <div class="panel">
+        <input type="text" id="buscador" placeholder="Buscar por paciente...">
+        <div id="estado"></div>
+
+        <div class="acciones">
+            <input type="text" id="nuevo-paciente" placeholder="Nombre del paciente">
+            <input type="text" id="nuevo-diagnostico" placeholder="Diagnóstico">
+            <input type="text" id="nuevo-tratamiento" placeholder="Médico / Tratamiento">
+            <button id="boton-agregar">Agregar consulta</button>
+        </div>
+
+        <div class="acciones">
+            <label for="archivo-excel">Cargar consultas desde Excel:</label>
+            <input type="file" id="archivo-excel" accept=".xlsx,.xls">
+            <button id="boton-descargar" disabled>Descargar cadena.json</button>
+        </div>
+        <p id="mensaje-importacion"></p>
+    </div>
+
+    <div class="fila-cadena" id="fila-cadena"></div>
+
+    <div id="detalle">
+        <h2>Detalle del bloque</h2>
+        <div id="contenido-detalle">Haz clic en un bloque para ver sus datos y hashes completos.</div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="datos.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
