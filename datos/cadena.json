@@ -1,110 +1,11 @@
 [
   {
     "indice": 0,
-    "fecha": "2026-11-21 15:45:27",
+    "fecha": "2026-11-23 20:21:14",
     "paciente": "Registro inicial",
     "diagnostico": "Bloque génesis",
     "tratamiento": "-",
     "hash_anterior": "0",
-    "hash": "529410a6ea45663b5035bee7780ffc72cf3d887405522ea3418b51712374629a"
-  },
-  {
-    "indice": 1,
-    "fecha": "2026-11-21 16:08:38",
-    "paciente": "Ana Pérez",
-    "diagnostico": "Gripe",
-    "tratamiento": "Dr. Ruiz - Reposo e hidratación",
-    "hash_anterior": "529410a6ea45663b5035bee7780ffc72cf3d887405522ea3418b51712374629a",
-    "hash": "0c39925068065bd1c9b6f0230c4e27c2a473ef52ca9d880fbe017e72509d9f92"
-  },
-  {
-    "indice": 2,
-    "fecha": "2026-11-21 16:08:38",
-    "paciente": "Luis Gómez",
-    "diagnostico": "Asma leve",
-    "tratamiento": "Dra. Salas - Inhalador",
-    "hash_anterior": "0c39925068065bd1c9b6f0230c4e27c2a473ef52ca9d880fbe017e72509d9f92",
-    "hash": "029a2a2a14d3e007bba25825d96ba491b4aee41b5f3157bfa6ff23ebbc128fbb"
-  },
-  {
-    "indice": 3,
-    "fecha": "2026-11-21 16:08:38",
-    "paciente": "María Torres",
-    "diagnostico": "Hipertensión",
-    "tratamiento": "Dr. Ruiz - Control mensual",
-    "hash_anterior": "029a2a2a14d3e007bba25825d96ba491b4aee41b5f3157bfa6ff23ebbc128fbb",
-    "hash": "3b95cae07ddd1ab0cfc2036d815e15c27506eab8ee22fc9cd73c28fd3a5a605d"
-  },
-  {
-    "indice": 4,
-    "fecha": "2026-11-21 16:20:51",
-    "paciente": "Ana Pérez",
-    "diagnostico": "Gripe",
-    "tratamiento": "Dr. Ruiz - Reposo e hidratación",
-    "hash_anterior": "3b95cae07ddd1ab0cfc2036d815e15c27506eab8ee22fc9cd73c28fd3a5a605d",
-    "hash": "0385797eabc3362e5e01aebfe64c2486353515c840da2988a929a12c82e6af59"
-  },
-  {
-    "indice": 5,
-    "fecha": "2026-11-21 16:20:51",
-    "paciente": "Luis Gómez",
-    "diagnostico": "Asma leve",
-    "tratamiento": "Dra. Salas - Inhalador",
-    "hash_anterior": "0385797eabc3362e5e01aebfe64c2486353515c840da2988a929a12c82e6af59",
-    "hash": "2691c44145ce1da0dabceba0373fee4541c823794a7072a552e05d8847af78d4"
-  },
-  {
-    "indice": 6,
-    "fecha": "2026-11-21 16:20:51",
-    "paciente": "María Torres",
-    "diagnostico": "Hipertensión",
-    "tratamiento": "Dr. Ruiz - Control mensual",
-    "hash_anterior": "2691c44145ce1da0dabceba0373fee4541c823794a7072a552e05d8847af78d4",
-    "hash": "30b5217fead0029c0b5ab182904c487259820a99fa40f324edb9a2ccb361413a"
-  },
-  {
-    "indice": 7,
-    "fecha": "2026-11-21 16:20:51",
-    "paciente": "Jesus Muñoz",
-    "diagnostico": "Gripe",
-    "tratamiento": "Dr. Ruiz - Reposo e hidratación",
-    "hash_anterior": "30b5217fead0029c0b5ab182904c487259820a99fa40f324edb9a2ccb361413a",
-    "hash": "c07996a8883c3db6dbae42d283038671d765256cbf76a2dd73ad11b4c7a9aac8"
-  },
-  {
-    "indice": 8,
-    "fecha": "2026-11-21 16:20:51",
-    "paciente": "Antoni Mendes",
-    "diagnostico": "Asma leve",
-    "tratamiento": "Dra. Salas - Inhalador",
-    "hash_anterior": "c07996a8883c3db6dbae42d283038671d765256cbf76a2dd73ad11b4c7a9aac8",
-    "hash": "53d140f13945e2d7ef4bbe8ad06f196addc11f4b8fb1d70c3bbeabc47c226d50"
-  },
-  {
-    "indice": 9,
-    "fecha": "2026-11-21 16:20:51",
-    "paciente": "Carlos Cabello",
-    "diagnostico": "Hipertensión",
-    "tratamiento": "Dr. Ruiz - Control mensual",
-    "hash_anterior": "53d140f13945e2d7ef4bbe8ad06f196addc11f4b8fb1d70c3bbeabc47c226d50",
-    "hash": "e595e84f6750215d6272abd7d7419278987e93ef7806d5a883c54f3bfd3da341"
-  },
-  {
-    "indice": 10,
-    "fecha": "2026-11-21 16:20:51",
-    "paciente": "Antonietea Mejica",
-    "diagnostico": "Gripe",
-    "tratamiento": "Dr. Ruiz - Reposo e hidratación",
-    "hash_anterior": "e595e84f6750215d6272abd7d7419278987e93ef7806d5a883c54f3bfd3da341",
-    "hash": "7d39746c464057263fa70b314818db65318738c5ea3293f66aedaec6d2436428"
-  },
-  {
-    "indice": 11,
-    "fecha": "2026-11-21 16:20:51",
-    "paciente": "Mauricio Lopez",
-    "diagnostico": "Asma leve",
-    "tratamiento": "Dra. Salas - Inhalador",
-    "hash_anterior": "7d39746c464057263fa70b314818db65318738c5ea3293f66aedaec6d2436428",
-    "hash": "620d896097467f05a2c82c4348790bf80af5a0d8cda774072da24a7527b8d78d"
+    "hash": "d0ba0fb85625ebe335419e03fc62854ae96340fbdd947f78f09b0f80280cb89a"
   }
 ]
