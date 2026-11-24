@@ -1,6 +1,6 @@
 # Historial Clínico Inmutable
 
-Proyecto de fin de trimestre. Simula una cadena de bloques (blockchain) donde cada
+Proyecto. Simula una cadena de bloques (blockchain) donde cada
 consulta médica se enlaza con la anterior mediante un hash SHA-256: si alguien
 altera un registro antiguo, el sistema lo detecta y marca ese bloque y los siguientes.
 
